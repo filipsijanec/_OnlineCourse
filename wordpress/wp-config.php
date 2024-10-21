@@ -139,3 +139,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once ABSPATH . 'wp-settings.php';
 
 set_time_limit(300);
+
+define('WP_MEMORY_LIMIT', '256M');
+define('WP_HOME', 'http://localhost:8080');
+define('WP_SITEURL', 'http://localhost:8080');
